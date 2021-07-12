@@ -1,33 +1,33 @@
 
-PWeb:BoldAndItalicTagsCheckù"Replace this <i> tag by <em>.(”¦Ğ®şÿÿÿÿ8Û˜µí¨/
-UWeb:AvoidCommentedOutCodeCheck8"Remove this commented out code.(¢•Ÿùûÿÿÿÿ8ù•ªì¨/
-MWeb:ImgWithoutAltCheck¼"%Add an "alt" attribute to this image.(åƒ†šÿÿÿÿÿ
-KWeb:BoldAndItalicTagsCheckû"Replace this <i> tag by <em>.(”Ã·Ï8Û˜µí¨/
-JWeb:BoldAndItalicTagsCheckq"Replace this <i> tag by <em>.(ˆôÃˆ8˜¾ƒí¨/
-PWeb:BoldAndItalicTagsCheckú"Replace this <i> tag by <em>.(ÚÈÔŸüÿÿÿÿ8Û˜µí¨/
-UWeb:AvoidCommentedOutCodeChecki"Remove this commented out code.(ŞÎøµùÿÿÿÿ8Ì­®ì¨/
-Q	Web:S1827Ò"/Remove this deprecated "frameborder" attribute.(‚ƒ£Óøÿÿÿÿ8Û˜µí¨/
-JWeb:BoldAndItalicTagsCheckU"Replace this <i> tag by <em>.(£ç˜Ğ8øç‰í¨/
-PWeb:AvoidCommentedOutCodeCheckÌ"Remove this commented out code.(Ãş8ù×«í¨/
+UWeb:AvoidCommentedOutCodeCheck["Remove this commented out code.(ŞÎøµùÿÿÿÿ8ø„®ì¨/
+UWeb:AvoidCommentedOutCodeCheckw"Remove this commented out code.(ŞÎøµùÿÿÿÿ8«Ë®ì¨/
 HWeb:ImgWithoutAltCheckœ"%Add an "alt" attribute to this image.(­Ú‡ï
-OWeb:BoldAndItalicTagsCheckc"Replace this <i> tag by <em>.(Éì¨üûÿÿÿÿ8«ºıì¨/
+UWeb:AvoidCommentedOutCodeCheckM"Remove this commented out code.(ŞÎøµùÿÿÿÿ8ß­ì¨/
+WWeb:LinkToImageCheckÄ"1Change this link to not directly target an image.(ˆ³»øÿÿÿÿ
+MWeb:ImgWithoutAltCheckÄ"%Add an "alt" attribute to this image.(ˆ³»øÿÿÿÿ
+JWeb:BoldAndItalicTagsCheckG"Replace this <i> tag by <em>.(ÄŞè”8›Öì¨/
+WWeb:LinkToImageCheck´"1Change this link to not directly target an image.(‹£‘ùüÿÿÿÿ
 `Web:FrameWithoutTitleCheckÒ"-Add a "title" attribute to this <iframe> tag.(‚ƒ£Óøÿÿÿÿ8Û˜µí¨/
 MWeb:ImgWithoutAltCheck¤"%Add an "alt" attribute to this image.(ÆÏŠçıÿÿÿÿ
-WWeb:LinkToImageCheck´"1Change this link to not directly target an image.(‹£‘ùüÿÿÿÿ
-UWeb:AvoidCommentedOutCodeCheckw"Remove this commented out code.(ŞÎøµùÿÿÿÿ8«Ë®ì¨/
-MWeb:ImgWithoutAltCheckÄ"%Add an "alt" attribute to this image.(ˆ³»øÿÿÿÿ
-MWeb:ImgWithoutAltCheck´"%Add an "alt" attribute to this image.(‹£‘ùüÿÿÿÿ
-MWeb:ImgWithoutAltCheck¬"%Add an "alt" attribute to this image.(ˆ¨ƒşùÿÿÿÿ
-WWeb:LinkToImageCheck¤"1Change this link to not directly target an image.(ÆÏŠçıÿÿÿÿ
+PWeb:BoldAndItalicTagsCheckù"Replace this <i> tag by <em>.(”¦Ğ®şÿÿÿÿ8Û˜µí¨/
+JWeb:BoldAndItalicTagsCheckq"Replace this <i> tag by <em>.(ˆôÃˆ8˜¾ƒí¨/
 Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
-WWeb:LinkToImageCheck¼"1Change this link to not directly target an image.(åƒ†šÿÿÿÿÿ
-RWeb:LinkToImageCheckœ"1Change this link to not directly target an image.(­Ú‡ï
-UWeb:AvoidCommentedOutCodeCheck7"Remove this commented out code.(ß½ÂÖşÿÿÿÿ8Ä’©ì¨/
-UWeb:AvoidCommentedOutCodeCheck["Remove this commented out code.(ŞÎøµùÿÿÿÿ8ø„®ì¨/
-WWeb:LinkToImageCheck¬"1Change this link to not directly target an image.(ˆ¨ƒşùÿÿÿÿ
-WWeb:LinkToImageCheckÄ"1Change this link to not directly target an image.(ˆ³»øÿÿÿÿ
-QWeb:AvoidCommentedOutCodeCheckÜ"Remove this commented out code.(–¿â8Œ¬Æí¨/
-JWeb:BoldAndItalicTagsCheckG"Replace this <i> tag by <em>.(ÄŞè”8›Öì¨/
-UWeb:AvoidCommentedOutCodeCheckM"Remove this commented out code.(ŞÎøµùÿÿÿÿ8ß­ì¨/
 PWeb:AvoidCommentedOutCodeCheck "Remove this commented out code.(ÛÇ‡Q8ë«í¨/
+WWeb:LinkToImageCheck¼"1Change this link to not directly target an image.(åƒ†šÿÿÿÿÿ
+MWeb:ImgWithoutAltCheck¼"%Add an "alt" attribute to this image.(åƒ†šÿÿÿÿÿ
+Q	Web:S1827Ò"/Remove this deprecated "frameborder" attribute.(‚ƒ£Óøÿÿÿÿ8Û˜µí¨/
+UWeb:AvoidCommentedOutCodeChecki"Remove this commented out code.(ŞÎøµùÿÿÿÿ8Ì­®ì¨/
+UWeb:AvoidCommentedOutCodeCheck7"Remove this commented out code.(ß½ÂÖşÿÿÿÿ8Ä’©ì¨/
+KWeb:BoldAndItalicTagsCheckû"Replace this <i> tag by <em>.(”Ã·Ï8Û˜µí¨/
+RWeb:LinkToImageCheckœ"1Change this link to not directly target an image.(­Ú‡ï
+PWeb:BoldAndItalicTagsCheckú"Replace this <i> tag by <em>.(ÚÈÔŸüÿÿÿÿ8Û˜µí¨/
+WWeb:LinkToImageCheck¤"1Change this link to not directly target an image.(ÆÏŠçıÿÿÿÿ
+WWeb:LinkToImageCheck¬"1Change this link to not directly target an image.(ˆ¨ƒşùÿÿÿÿ
+PWeb:AvoidCommentedOutCodeCheckÌ"Remove this commented out code.(Ãş8ù×«í¨/
 QWeb:AvoidCommentedOutCodeCheck¦"Remove this commented out code.(çş©8¬«í¨/
+OWeb:BoldAndItalicTagsCheckc"Replace this <i> tag by <em>.(Éì¨üûÿÿÿÿ8«ºıì¨/
+MWeb:ImgWithoutAltCheck¬"%Add an "alt" attribute to this image.(ˆ¨ƒşùÿÿÿÿ
+UWeb:AvoidCommentedOutCodeCheck8"Remove this commented out code.(¢•Ÿùûÿÿÿÿ8ù•ªì¨/
+MWeb:ImgWithoutAltCheck´"%Add an "alt" attribute to this image.(‹£‘ùüÿÿÿÿ
+QWeb:AvoidCommentedOutCodeCheckÜ"Remove this commented out code.(–¿â8Œ¬Æí¨/
+JWeb:BoldAndItalicTagsCheckU"Replace this <i> tag by <em>.(£ç˜Ğ8øç‰í¨/

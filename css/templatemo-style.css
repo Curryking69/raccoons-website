@@ -348,16 +348,23 @@ bootstrap.min.css:5
 }
 
 #portfolio .section-heading {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-color: #706a6a;
-	height: 732px;
+	height: 532px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
 
 #portfolio .project-item {
-	margin: 0px -16px;
+	margin: 0px;
+	padding: 4px;
+}
+
+#portfolio .project-item .innerBox {
+   background-color: #f7f7f7;
+   border: 1px solid #706a6a;
+   padding: 2px 14px;
 }
 
 #portfolio .section-heading h4 {
@@ -507,6 +514,7 @@ bootstrap.min.css:5
 }
 .tabgroup .text-content p {
 	margin-top: 10px;
+	color: #121212;
 }
 
 .clearfix:after {
@@ -765,11 +773,14 @@ footer .connect-us ul li a:hover {
 		margin-bottom: 80px;
 	} 
 
+    #portfolio {
+        background-color: #706a6a;
+    }
+
 	#portfolio .section-heading {
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		background-color: #49a3ae;
 		height: 505px;
 		margin-left: -15px;
 		padding-left: 0vh;
@@ -791,8 +802,14 @@ footer .connect-us ul li a:hover {
 		padding: 15px 0px;
 	}
 
+    #portfolio .container {
+        width: auto !important;
+    }
+
 	#portfolio .project-item {
 		margin: 15px 0px;
+		float: none !important;
+		width: auto !important;
 	}
 
 	#blog .section-heading {
