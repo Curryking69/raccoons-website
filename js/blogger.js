@@ -1,12 +1,23 @@
-var API_KEY = "AIzaSyAuzhTc4TpQOQlMkrFb59mAkZ7SYD_HOJE";
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
 
 var blog_id = "7560924667308743912";
 
 var calendar_id = "6072fah5roc9ar6rbcg8n9vs60@group.calendar.google.com";
 
-var calendarUrl = "https://www.googleapis.com/calendar/v3/calendars/" + calendar_id +"/events?maxResults=6&key=" + API_KEY;
+var calendarUrl = "https://www.googleapis.com/calendar/v3/calendars/" + calendar_id +"/events?maxResults=6&key=" + findGetParameter("stuff");
 
-var postsUrl = "https://www.googleapis.com/blogger/v3/blogs/" + blog_id +"/posts?key=" + API_KEY;
+var postsUrl = "https://www.googleapis.com/blogger/v3/blogs/" + blog_id +"/posts?key=" + findGetParameter("stuff");
 
 jQuery(document).ready(function($){
     $.get(postsUrl, function(data) {
