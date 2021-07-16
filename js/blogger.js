@@ -43,7 +43,7 @@ jQuery(document).ready(function($){
                 var content = "";
                 for(var j = 0; j < $(page).filter("p").length; j++) {
                     var paragraph = $(page).filter("p")[j];
-                    if(paragraph.innerHTML != "" && paragraph.innerHTML != "<br>") {
+                    if(paragraph.innerHTML != "" && paragraph.innerHTML != "<br>" && paragraph.innerHTML != "&nbsp;") {
                         if(content == "") {
                             content += "<p>";
                         } else {
