@@ -24,8 +24,15 @@ jQuery(document).ready(function($){
     $.get(pagesUrl, function(data) {
         var pages = data["items"];
         for (var i=0; i < pages.length; i++) {
-            var page = pages[i]["content"];
-            console.log(page);
+            var page = pages[i].content;
+            if($(page).find("img").attr("src") != "" &&
+            $(page).find("img").attr("src") != undefined &&
+            $(page).find("img").attr("src") != null) {
+                var img = $("<img/>", {
+                    src: $(page).find("img").attr("src"),
+                });
+
+            }
         }
     });
 
