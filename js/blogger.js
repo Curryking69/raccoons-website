@@ -41,8 +41,8 @@ jQuery(document).ready(function($){
                 $(testimonialItemWrapper).append(img);
 
                 var content = "";
-                for(var j = 0; j < $(entry.content).filter("p").length; j++) {
-                    var paragraph = $(entry.content).filter("p")[j];
+                for(var j = 0; j < $(page).filter("p").length; j++) {
+                    var paragraph = $(page).filter("p")[j];
                     if(paragraph.innerHTML != "" && paragraph.innerHTML != "<br>") {
                         if(content == "") {
                             content += "<p>";
