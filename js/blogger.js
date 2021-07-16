@@ -60,6 +60,9 @@ jQuery(document).ready(function($){
 
                 $("#owl-testimonials").append(testimonialItem);
             }
+            if(i + 1 == 6) {
+                break;
+            }
         }
 
         var owl = $("#owl-testimonials");
