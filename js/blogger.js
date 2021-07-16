@@ -35,20 +35,27 @@ jQuery(document).ready(function($){
                     class: "testimonials-item"
                 });
 
-                /*
-                    <div class="item">
-                        <div class="testimonials-item">
-                            <p>“ Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo. ”</p>
-                            <h4>George Rich</h4>
-                            <span>Marketing Head</span>
-                        </div>
-                    </div>
-                */
                 var img = $("<img/>", {
                     src: $(page).find("img").attr("src"),
                 });
                 $(testimonialItemWrapper).append(img);
-                $(testimonialItemWrapper).append("<p>Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo.</p>");
+
+                var content = "";
+                for(var j = 0; j < $(entry.content).filter("p").length; j++) {
+                    var paragraph = $(entry.content).filter("p")[j];
+                    if(paragraph.innerHTML != "" && paragraph.innerHTML != "<br>") {
+                        if(content == "") {
+                            content += "<p>";
+                        } else {
+                            content += "</br>";
+                        }
+                        content += paragraph.innerHTML;
+                    }
+                }
+
+                if(content != "") {
+                    $(testimonialItemWrapper).append(content);
+                }
                 $(testimonialItem).append(testimonialItemWrapper);
 
                 $("#owl-testimonials").append(testimonialItem);

@@ -419,6 +419,13 @@ bootstrap.min.css:5
 	border-radius: 5px;
 }
 
+#testimonial .testimonials-item img {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 .owl-pagination {
   margin-top: 20px;
   opacity: 1;
