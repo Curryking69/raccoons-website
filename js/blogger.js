@@ -22,7 +22,11 @@ var pagesUrl = "https://www.googleapis.com/blogger/v3/blogs/" + blog_id +"/pages
 
 jQuery(document).ready(function($){
     $.get(pagesUrl, function(data) {
-        console.log(data);
+        var pages = data["items"];
+        for (var i=0; i < pages.length; i++) {
+            var page = pages[i]["content"];
+            console.log(page);
+        }
     });
 
     $.get(postsUrl, function(data) {
