@@ -389,9 +389,12 @@ bootstrap.min.css:5
 }
 
 #testimonial {
-	background-color: #f7c552;
+	background-image: url(../img/colors_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 	text-align: center;
-	padding: 100px 0px;
+	padding: 70px 0px;
 }
 
 #testimonial .section-heading {
@@ -582,7 +585,10 @@ bootstrap.min.css:5
 }
 
 #contact {
-	background-color: #49a3ae;
+	background-image: url(../img/colors_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 	text-align: center;
 	padding: 80px 0px;
 }
