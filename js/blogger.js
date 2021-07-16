@@ -28,12 +28,44 @@ jQuery(document).ready(function($){
             if($(page).find("img").attr("src") != "" &&
             $(page).find("img").attr("src") != undefined &&
             $(page).find("img").attr("src") != null) {
+                var testimonialItem = $("<div/>", {
+                    class: "item"
+                });
+                var testimonialItemWrapper = $("<div/>", {
+                    class: "testimonials-item"
+                });
+
+                /*
+                    <div class="item">
+                        <div class="testimonials-item">
+                            <p>“ Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo. ”</p>
+                            <h4>George Rich</h4>
+                            <span>Marketing Head</span>
+                        </div>
+                    </div>
+                */
                 var img = $("<img/>", {
                     src: $(page).find("img").attr("src"),
                 });
+                $(testimonialItemWrapper).append(img);
+                $(testimonialItemWrapper).append("<p>Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo.</p>");
+                $(testimonialItem).append(testimonialItemWrapper);
 
+                $("#owl-testimonials").append(testimonialItem);
             }
         }
+
+        var owl = $("#owl-testimonials");
+        owl.owlCarousel({
+            pagination : true,
+            paginationNumbers: false,
+            autoPlay: 6000, //Set AutoPlay to 3 seconds
+            items : 1, //10 items above 1000px browser width
+            itemsDesktop : [1000,1], //5 items between 1000px and 901px
+            itemsDesktopSmall : [900,1], // betweem 900px and 601px
+            itemsTablet: [600,1], //2 items between 600 and 0
+            itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+        });
     });
 
     $.get(postsUrl, function(data) {
