@@ -18,8 +18,13 @@ var calendar_id = "6072fah5roc9ar6rbcg8n9vs60@group.calendar.google.com";
 var calendarUrl = "https://www.googleapis.com/calendar/v3/calendars/" + calendar_id +"/events?maxResults=6&key=" + findGetParameter("stuff");
 
 var postsUrl = "https://www.googleapis.com/blogger/v3/blogs/" + blog_id +"/posts?key=" + findGetParameter("stuff");
+var pagesUrl = "https://www.googleapis.com/blogger/v3/blogs/" + blog_id +"/pages?key=" + findGetParameter("stuff");
 
 jQuery(document).ready(function($){
+    $.get(pagesUrl, function(data) {
+        console.log(data);
+    });
+
     $.get(postsUrl, function(data) {
         var elements = data["items"];
         for(var i = 0; i < elements.length; i++) {
